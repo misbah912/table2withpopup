@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.topnav{
+    background-color: rgb(0, 128, 79);
+    height: 50px;
+    color: white;
+    text-align: end;
+    line-height: 50px;
+}
+.topnav .log-out{
+    margin-right: 30px;
+    margin-left: 15px;
+    color: white;
+}
+
+.topnav .date-day{
+    margin-left: 15px;
+}
+
+.nav-2{
+    height: 30px;
+    border: 2px solid black;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.redeem-vouchers{
+    display: inline-block;
+    margin-left: 50px;
+    color: white;
+    background-color: rgb(0, 128, 79);
+    padding: 6px 15px 6px 15px;
+}
+
+.report{
+    display: inline-block;
+    border-right: 2px solid black;
+    padding: 6px 15px 6px 15px;
+}
+
+h1{
+    color:rgb(0, 128, 79);
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 165px;
+    margin-top: 80px;
+}
+
+.voucher-code{
+    height: 120px;
+    width: 400px;
+    background-color: rgb(0, 128, 79);
+    position: absolute;
+    top: 110px;
+    left: 454px;
+}
+
+.redeem{
+    padding: 15px 25px;
+    border: none;
+    background-color: rgb(0, 128, 79);
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 145px;
+    left: 858px; 
+}
+
+.check-voucher{
+    padding: 15px 25px;
+    border: none;
+    background-color: rgb(0, 128, 79);
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 145px;
+    left: 969px;
+}
+
+.recent-redeemption{
+    border-bottom: 3px solid rgb(169, 168, 168);
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color:  rgb(0, 128, 79);
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.status{
+    margin: 20px 30px 30px 30px;
+}
+
+.status .pg-no{
+    width: 40px;
+}
+
+.status .view-page-no{
+    width: 40px;
+}
+
+.status .export-to{
+    margin-left: 415px;
+}
+
+.status .reset-filter,.search{
+    padding: 3px 5px;
+    color: white;
+    background-color:rgb(0, 128, 79);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.reset-filter{
+    margin-left: 800px;
+}
+
+button:active {
+    background-color: #034125;
+    box-shadow: 0 5px #029c51;
+    transform: translateY(2px);
+}
+table.main-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table.popup-table th,table.popup-table td{
+    border: none;
+}
+table.popup-table th{
+    background-color: white;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #ddd;
+}
+
+input[type=checkbox] {
+    margin: 0;
+}
+
+.select-all,.unselect-all,.select-visible,.unselect-visible{
+    color:rgb(0, 128, 79);
+}
+.items-selected{
+    font-weight: 600;
+}
+
+select.any{
+    font-weight: 600;
+}
+
+.id-from-input,.id-to-input,.order-id-from-input,.order-id-to-input,.item-id-from-input,.item-id-to-input{
+    width: 50px;
+}
+
+.id-to-input,.order-id-to-input,.item-id-to-input{
+    margin: 5px 20px;
+}
+
+.voucher-code-input{
+    width: 100%;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+    position: relative;
+  }
+  
+ 
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
